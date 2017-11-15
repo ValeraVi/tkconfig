@@ -24,6 +24,7 @@ android {
         versionCode 26
         versionName "3.0.1"
     }
+    defaultConfig.versionName += "-val"
 
     sourceSets {
         main {
