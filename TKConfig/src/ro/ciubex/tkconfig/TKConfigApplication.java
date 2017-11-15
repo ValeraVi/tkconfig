@@ -85,6 +85,7 @@ public class TKConfigApplication extends Application {
     public static final String PERMISSION_FOR_WRITE_SMS = "android.permission.WRITE_SMS";
     public static final String PERMISSION_FOR_READ_EXTERNAL_STORAGE = "android.permission.READ_EXTERNAL_STORAGE";
     public static final String PERMISSION_FOR_WRITE_EXTERNAL_STORAGE = "android.permission.WRITE_EXTERNAL_STORAGE";
+    public static final String PERMISSION_FOR_READ_PHONE_STATE = "android.permission.READ_PHONE_STATE";
 
     public static final String KEY_APP_THEME = "appTheme";
 
@@ -94,7 +95,8 @@ public class TKConfigApplication extends Application {
             PERMISSION_FOR_READ_SMS,
             PERMISSION_FOR_WRITE_SMS,
             PERMISSION_FOR_READ_EXTERNAL_STORAGE,
-            PERMISSION_FOR_WRITE_EXTERNAL_STORAGE
+            PERMISSION_FOR_WRITE_EXTERNAL_STORAGE,
+            PERMISSION_FOR_READ_PHONE_STATE
     );
 
     /**
